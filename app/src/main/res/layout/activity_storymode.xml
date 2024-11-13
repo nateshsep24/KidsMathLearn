@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:id="@+id/textStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story Text"
+        android:textSize="18sp"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textStoryQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve: 5 + 3"
+        android:textSize="22sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editStoryAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Answer"
+        android:inputType="numberSigned"
+        android:padding="8dp"
+        android:backgroundTint="#AED581" />
+
+    <Button
+        android:id="@+id/buttonSubmitStoryAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Answer"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

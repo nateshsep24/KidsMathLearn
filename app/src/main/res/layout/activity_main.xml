@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E0F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math Learning Game"
+        android:textSize="24sp"
+        android:textColor="#00796B"
+        android:padding="8dp" />
+
+    <!-- Game Mode Buttons -->
+    <Button
+        android:id="@+id/buttonCounting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Counting"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonAddition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonMultiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplication"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonShapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shape Recognition"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonFractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fractions"
+        android:layout_marginTop="8dp" />
+
+    <!-- Special Game Modes -->
+    <Button
+        android:id="@+id/buttonStoryMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story Mode"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonDailyPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Puzzle"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

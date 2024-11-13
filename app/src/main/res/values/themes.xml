@@ -1,0 +1,27 @@
+<resources>
+    <style name="Theme.KidsMathLearn" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/secondaryColor</item>
+        <item name="colorAccent">@color/buttonColor</item>
+        <item name="android:fontFamily">@font/caveatbrushregular</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:fontFamily">@font/caveatbrushregular</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

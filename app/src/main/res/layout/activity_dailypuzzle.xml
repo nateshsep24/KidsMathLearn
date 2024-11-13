@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F3E5F5">
+
+    <TextView
+        android:id="@+id/textDailyPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Puzzle: 9 - 4"
+        android:textSize="22sp"
+        android:textColor="#6A1B9A"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editDailyPuzzleAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Answer"
+        android:inputType="numberSigned"
+        android:padding="8dp"
+        android:backgroundTint="#BA68C8" />
+
+    <Button
+        android:id="@+id/buttonSubmitDailyPuzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Answer"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textDailyFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="18sp"
+        android:textColor="#4A148C"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonBackToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

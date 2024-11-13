@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFF8E1">
+
+    <!-- Display for score and level -->
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level: 1"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Math Question Display -->
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveatbrushregular"
+        android:textSize="24sp"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <!-- Answer Input Field -->
+    <EditText
+        android:id="@+id/editAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your answer"
+        android:backgroundTint="@color/primaryColor"
+        android:fontFamily="@font/caveatbrushregular"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"/>
+
+    <!-- Feedback Display -->
+    <TextView
+        android:id="@+id/textFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="18sp"
+        android:textColor="#388E3C"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        style="@style/CustomButton"
+        android:text="Submit Answer"
+        android:layout_below="@id/editAnswer"
+        android:background="@drawable/rounded_background"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonBackToHome"
+        style="@style/CustomButton"
+        android:text="Back to Home"
+        android:layout_below="@id/buttonSubmit"
+        android:background="@drawable/rounded_background"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/checkMarkView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/check_mark"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageShape"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
